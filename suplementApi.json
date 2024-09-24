@@ -1,0 +1,82 @@
+{
+  "whey": [
+    {
+      "id": 1,
+      "name": "Whey Protein Isolate",
+      "category": "Whey",
+      "description": "Pure whey protein isolate for maximum muscle recovery.",
+      "price": 49.99,
+      "stock": 100,
+      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Whey Protein",
+      "category": "Whey",
+      "description": "Delicious chocolate flavored whey protein for muscle building.",
+      "price": 39.99,
+      "stock": 80,
+      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+    }
+  ],
+  "creatine": [
+    {
+      "id": 1,
+      "name": "Creatine Monohydrate",
+      "category": "Creatine",
+      "description": "Increase muscle power and endurance with pure creatine.",
+      "price": 24.99,
+      "stock": 150,
+      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+    },
+    {
+      "id": 2,
+      "name": "Micronized Creatine",
+      "category": "Creatine",
+      "description": "Ultra-fine creatine powder for better absorption and performance.",
+      "price": 29.99,
+      "stock": 120,
+      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+    }
+  ],
+  "pre-workout": [
+    {
+      "id": 1,
+      "name": "Pre-Workout Explode",
+      "category": "Pre-Workout",
+      "description": "Explosive energy and focus for your toughest workouts.",
+      "price": 34.99,
+      "stock": 60,
+      "image": "https://example.com/images/pre-workout-explode.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nitro Pump Pre-Workout",
+      "category": "Pre-Workout",
+      "description": "Maximize your pumps and energy with this advanced formula.",
+      "price": 39.99,
+      "stock": 50,
+      "image": "https://example.com/images/nitro-pump.jpg"
+    }
+  ],
+  "others": [
+    {
+      "id": 1,
+      "name": "BCAA Recovery",
+      "category": "Others",
+      "description": "Branched-chain amino acids to accelerate muscle recovery.",
+      "price": 19.99,
+      "stock": 200,
+      "image": "https://example.com/images/bcaa-recovery.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Omega-3 Fish Oil",
+      "category": "Others",
+      "description": "High-quality omega-3 fish oil for heart and joint health.",
+      "price": 14.99,
+      "stock": 180,
+      "image": "https://example.com/images/omega-3-fish-oil.jpg"
+    }
+  ]
+}
