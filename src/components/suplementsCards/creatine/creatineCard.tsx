@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import Card from "./card";
+import Card from "../card";
 import { DataApi } from "@/utils/interfaceSuplements";
 
 

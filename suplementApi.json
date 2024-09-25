@@ -7,18 +7,18 @@
       "description": "Pure whey protein isolate for maximum muscle recovery.",
       "price": 49.99,
       "stock": 100,
-      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+      "image": "https://images.tcdn.com.br/img/img_prod/748920/whey_protein_concentrado_pote_900g_pro_healthy_9_1_f8c92d0b6432d1313987dd66294dcd46.jpg"
     },
     {
       "id": 2,
-      "name": "Chocolate Whey Protein",
+      "name": "Chocolate Whey",
       "category": "Whey",
       "description": "Delicious chocolate flavored whey protein for muscle building.",
       "price": 39.99,
       "stock": 80,
-      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
-    }
-  ],
+      "image": "https://images.tcdn.com.br/img/img_prod/748920/whey_protein_concentrado_pote_900g_pro_healthy_9_1_f8c92d0b6432d1313987dd66294dcd46.jpg"
+  }
+],
   "creatine": [
     {
       "id": 1,
