@@ -8,9 +8,8 @@ const CartSheet: React.FC = () => {
 
     const totalItems = cart.reduce((acc, item) => acc + item.quanty, 0);
 
-    // Calcule o preço total do carrinho
     const totalPrice = cart.reduce((acc, item) => {
-        return acc + (Number(item.price) * item.quanty); // Multiplica o preço pela quantidade
+        return acc + (Number(item.price) * item.quanty);
     }, 0);
 
     return (
@@ -19,10 +18,8 @@ const CartSheet: React.FC = () => {
             <div className="relative">
                     {/* Ícone do Carrinho */}
                     <ShoppingCartIcon />
-
-                    {/* Badge de quantidade de itens */}
                     {totalItems > 0 && (
-                        <span className="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs">
+                        <span className="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-4 h-4 flex items-center justify-center text-xs">
                             {totalItems}
                         </span>
                     )}
