@@ -1,13 +1,37 @@
 import logo from '@/assets/logo.png'
-import { Button } from '../ui/button'
-import { Search, Truck } from 'lucide-react'
+import { Search, Truck, User } from 'lucide-react'
+import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel'
+import Autoplay from "embla-carousel-autoplay";
+import CartSheet from './cartSheet';
 
 const Header = () => {
     return(
         <>
         <div className='bg-white flex gap-2 items-center justify-center'>
-            <span className='text-[14px]'>Frete grátis acima de R$200</span>
-            <Truck size={20}/>
+        <Carousel className="" 
+        opts={{
+            loop: true
+        }} 
+        plugins={[
+            Autoplay({
+                delay: 3000,
+            })
+        ]}>
+                <CarouselContent className="">
+                    <CarouselItem>
+                    <div className='flex items-center justify-center gap-2'>
+                        <span className='text-[14px]'>Frete grátis acima de R$200</span>
+                        <Truck size={20}/>
+                    </div>
+                    </CarouselItem>
+                    <CarouselItem>
+                    <div className='flex items-center justify-center gap-2'>
+                        <span className='text-[14px]'>Entrega imediata para todas 
+                            as regiões de São Paulo</span>
+                    </div>
+                    </CarouselItem>
+                </CarouselContent>
+            </Carousel>
         </div>
         <header className='bg-[#6C4E31]'>
             <nav className='flex items-center justify-around'>
@@ -20,9 +44,15 @@ const Header = () => {
                     />
                     <Search className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500" />
                 </div>
-                <div>
-                    <Button variant='ghost' className=''>Entrar</Button>
-                    <Button variant='ghost'>Cadastrar</Button>
+                <div className='flex gap-12 items-center'>
+                    <div className='flex items-center'>
+                        <User size={30}/>
+                        <div className='flex flex-col text-[12px]'>
+                            <span>Bem vindo,</span>
+                            <span>Acesse seu perfil</span>
+                        </div>
+                    </div>
+                    <CartSheet />
                 </div>
             </nav>
         </header>

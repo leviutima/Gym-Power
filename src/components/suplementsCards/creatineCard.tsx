@@ -1,15 +1,8 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
+import Card from "./card";
+import { DataApi } from "@/utils/interfaceSuplements";
 
-interface DataApi {
-    id: number;
-    name: string;
-    category: string;
-    description: string;
-    price: number;
-    stock: number;
-    image: string;
-}
 
 const CreatineCard = () => {
     const [data, setData] = useState<DataApi[]>([])
@@ -29,15 +22,15 @@ const CreatineCard = () => {
 
     return(
         <div>
-            <div className="shadow-lg">
+            <div className="flex gap-8">
                 {data.map((item) => (
-                <div key={item.id} className="flex flex-col gap-2 items-center justify-center">
-                    <img src={item.image} className="w-[60px]"></img>
-                    <div>
-                        <h3 className="w-[300]">{item.name}</h3>
-                        <p className="w-[300px]">{item.description}</p>
-                    </div>
-                </div> 
+                <Card 
+                key={item.id}
+                name={item.name}
+                image={item.image}
+                description={item.description}
+                price={item.price}
+                />
                 ))}
             </div>
         </div>

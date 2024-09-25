@@ -37,6 +37,15 @@
       "price": 29.99,
       "stock": 120,
       "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
+    },
+    {
+      "id": 3,
+      "name": "Isolate Creatine",
+      "category": "Creatine",
+      "description": "Ultra-fine creatine powder for better absorption and performance.",
+      "price": 50.99,
+      "stock": 120,
+      "image": "https://images.tcdn.com.br/img/img_prod/767774/creatine_pure_pote_300g_359_1_5d7f9719322028e09cd8cc53286bf897.png"
     }
   ],
   "pre-workout": [
